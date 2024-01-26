@@ -5,3 +5,11 @@ content-type: application/json
   "title": "Todo 3",
   "done": false
 }
+
+### Com mal formatacao
+POST http://localhost:3000/todos
+content-type: application/json
+
+{
+  "title": "Todo 3"
+}
