@@ -13,3 +13,9 @@ content-type: application/json
 {
   "title": "Todo 3"
 }
+
+
+### Obter todos
+GET  http://localhost:3000/todos
+content-type: application/json
+
